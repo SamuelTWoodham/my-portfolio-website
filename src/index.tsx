@@ -7,5 +7,5 @@ if (rootElement) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(<App />);
 } else {
-  console.error('Could not find root element');
+  console.error('Could not find root element with ID "root"');
 }
